@@ -45,7 +45,7 @@ nav ul li a:hover{
     color: #fff;
 }
 
-.carousel-caption a h4:hover{
+.carousel-caption a h3:hover{
     font-weight: bolder;
 }
 
@@ -116,6 +116,25 @@ nav ul li a:hover{
     border:2px solid #006641;
     background-color: #008f5f;
     color: #fff;
+}
+
+.to-top {
+    text-decoration: none;
+    max-width: 120px;
+    margin: 5px auto;
+    font-size:20px;
+    padding: 5px;
+    border: 2px solid #fceddb;
+    border-radius: 5px;
+    color: #383838;
+    max-height: 55px;
+    background-color: #fceddb;
+    
+}
+
+.to-top:hover {
+    border: 2px solid #383838;
+    color: #383838;
 }
 
 .modal-button{
