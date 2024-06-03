@@ -6,6 +6,10 @@ nav ul li a:hover{
     text-shadow: 0 0 .65px #383838, 0 0 .65px #383838;
 }
 
+.fs-xs {
+    font-size: 0.75rem;
+}
+
 .about {
     text-align: center; 
 }
