@@ -18,4 +18,4 @@ Project Link: https://ellied33.github.io/Walking-Website-Responsive
 
 ---
 
-Thank you for checking out this coffee shop website clone project! If you have any questions or feedback, feel free to reach out.
+Thank you for checking out this responsive website project! If you have any questions or feedback, feel free to reach out.
