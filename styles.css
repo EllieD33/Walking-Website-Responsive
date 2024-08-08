@@ -300,6 +300,12 @@ footer h3 {
     color: rgb(255, 255, 255);
 }
 
+.explore:focus {
+    background-color: #006641;
+    color: rgb(255, 255, 255);
+    outline: auto;
+}
+
 .explore span {
     cursor: pointer;
     display: inline-block;
