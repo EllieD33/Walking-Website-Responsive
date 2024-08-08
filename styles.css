@@ -161,12 +161,12 @@
     border-radius: 5px;
     color: #fff;
     max-height: 55px;
-    background-color: #006641;
+    background-color: #008f5f;
 }
 
 .standard-button:hover{
     border:2px solid #006641;
-    background-color: #008f5f;
+    background-color: #006641;
     color: #fff;
 }
 
