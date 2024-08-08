@@ -395,6 +395,7 @@ footer h3 {
 
 .accordion-button:focus {
     box-shadow: none;
+    outline: auto;
 }
 
 .accordion {
