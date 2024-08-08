@@ -2,8 +2,12 @@
     background-color:#fceddb;
 }
 
-nav ul li a:hover{
-    text-shadow: 0 0 .65px #383838, 0 0 .65px #383838;
+.nav-link {
+    color: #006641;
+}
+        
+.nav-link:hover{
+    color:#0bbd81;
 }
 
 .fs-xs {
