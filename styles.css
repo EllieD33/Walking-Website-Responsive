@@ -28,6 +28,13 @@ nav ul li a:hover{
     align-items: center; 
 }
 
+@media (max-width: 768px) {
+    .lead {
+        font-size: 1rem; 
+        font-weight: normal; 
+    }
+}
+
 .carousel-item {
     overflow: hidden; 
     position: relative; 
