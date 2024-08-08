@@ -99,18 +99,22 @@
       <div class="newsletter">
           <h2 aria-label="Subcribe to our newsletter">Subscribe to our newsletter</h2>
           <p class="d-none d-md-block">Sign up for our newsletter to make sure you never miss a new walking route!</p>
-          <div class="d-flex flex-row justify-content-center align-items-center">
-            <div class="d-flex flex-column me-5">
-              <label for="full-name" class="text-start fs-6 mb-0 pb-0 ps-1">Full name <span class="fs-xs">(required)</span></label>
-              <input type="text" id="full-name" name="full-name" class="name mb-2" placeholder="Full name" required/>
+          <div class="container subscribe-container">
+            <div class="d-flex flex-column flex-md-row flex-wrap justify-content-center align-items-center">
+                <div class="d-flex flex-column me-3 me-sm-4 me-md-5 mb-3">
+                    <label for="full-name" class="text-start fs-6 mb-0 pb-0 ps-1">Full name <span class="fs-xs">(required)</span></label>
+                    <input type="text" id="full-name" name="full-name" class="name mb-2" placeholder="Full name" required/>
+                </div>
+                <div class="d-flex flex-column me-3 me-sm-4 me-md-5 mb-3">
+                    <label for="email" class="text-start fs-6 mb-0 pb-0 ps-1">Email address <span class="fs-xs">(required)</span></label>
+                    <input type="email" id="email" name="email" class="email mb-2" placeholder="Email address" required/>
+                </div>
+                <div class="d-flex justify-content-center align-items-center">
+                    <button class="standard-button" aria-label="Subscribe">Subscribe</button>
+                </div>
             </div>
-            <div class="d-flex flex-column me-5">
-              <label for="email" class="text-start fs-6 mb-0 pb-0 ps-1">Email address <span class="fs-xs">(required)</span></label>
-              <input type="email" id="email" name="email" class="email mb-2" placeholder="Email address" required/>
-            </div>
-            <button class="standard-button align-self-end mb-2" aria-label="Subscribe">Subscribe</button>
-          </div>
-          <a class="to-top" href="#main-content">Back to top</a>
+        </div>
+          <a class="to-top mt-4" href="#main-content">Back to top</a>
           <div class="modal" id="myModal" tabindex="-1">
             <div class="modal-dialog">
               <div class="modal-content">

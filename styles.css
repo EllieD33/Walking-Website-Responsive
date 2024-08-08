@@ -110,6 +110,13 @@
     padding-bottom: 20px;
 }
 
+.subscribe-container {
+    border: 1px solid #d0e0d4; 
+    background-color: #f2f9f0; 
+    padding: 1rem;
+    border-radius: 0.5rem;
+}
+
 .newsletter input{
     max-height: 55px;
     outline: rgb(0, 143, 95);
