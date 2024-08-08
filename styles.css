@@ -361,6 +361,16 @@ footer h3 {
     }
 }
 
+.center-content {
+    margin: 0 auto; 
+}
+
+.walk-section {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 15px; 
+}
+
 .info {
     max-width: 500px;
     background-color: rgb(252, 237, 219);
@@ -380,6 +390,7 @@ footer h3 {
 .accordion-button {
     color: #383838;
     font-size: large;
+    background-color: #f2f9f0;
 }
 
 .accordion-button:focus {
