@@ -15,14 +15,17 @@ nav ul li a:hover{
 }
 
 .about img {
-    max-height: 50vh;   
+    max-height: 50vh; 
+    width: 100%;         
+    height: auto;         
+    object-fit: cover;
+    object-position: 50% 40%;
 }
 
 .image-container {
     display: flex; 
     justify-content: center; 
     align-items: center; 
-    margin-top: 20px; 
 }
 
 .carousel-item {
